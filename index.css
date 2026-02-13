@@ -1,0 +1,25 @@
+body{
+    background-color: #FD9ED0;
+}
+#no{
+    transition: 0.2s;
+    height: 50px;
+    width: 90px;
+    background-color: red;
+    border-radius: 12px;
+    border: none;
+    color: white;
+}
+#yes{
+    transition: 0.2s;
+    height: 50px;
+    width: 90px;
+    background-color: green;
+    border-radius: 12px;
+    border: none;
+    color: white;
+}
+h1{
+    color: #FFFFFF;
+    font-size: 50px;
+}
