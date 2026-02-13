@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
 
     const btn = document.getElementById("no");
-
+    const yop = document.getElementById("yes");
     function moveButton() {
         const maxX = window.innerWidth - btn.offsetWidth;
         const maxY = window.innerHeight - btn.offsetHeight;
@@ -19,5 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // mobil / touch
     btn.addEventListener("touchstart", moveButton);
-
+    yop.addEventListener("click", function() {
+        window.location.href = "jo.html"; // změň na název svého souboru
+    });
 });
